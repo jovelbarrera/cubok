@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Conescapan 2015 - El Salvador</title>
+        <title>CUBOK</title>
 
         <link rel="apple-touch-icon" sizes="57x57" href="<?php echo asset_url(); ?>favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="<?php echo asset_url(); ?>favicon/apple-icon-60x60.png">
@@ -29,53 +29,53 @@ and open the template in the editor.
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="<?php echo asset_url(); ?>css/bootstrap.css">
         <link rel="stylesheet" href="<?php echo asset_url(); ?>css/bootswatch.css">
         <link rel="stylesheet" href="<?php echo asset_url(); ?>css/font-awesome.css">
+        <link rel="stylesheet" href="<?php echo asset_url(); ?>css/cubok.css">
         <link rel="stylesheet" href="<?php echo asset_url(); ?>css/carousel.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/bootstrap.min.js"></script>
+        <script src="<?php echo asset_url(); ?>js/bootswatch.js"></script>
     </head>
     <body>
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="<?php echo site_url('inicio'); ?>" class="navbar-brand"><img src="<?php echo asset_url(); ?>img/logo_blanco_brand.png" alt="logo conescapan 2015" height="45" width="188"/></a>
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                        <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <a class="navbar-brand" href="#">CUBOK</a>
                 </div>
-                <div class="navbar-collapse collapse" id="navbar-main">
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <ul class="nav navbar-nav">
+                        <li class="active"><a href="#"><i class="fa fa-star"></i> <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#"><i class="fa fa-cloud-upload"></i></a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CONESCAPAN <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Inscripciones</a></li>
-<!--                                <li><a href="#">Conescapan 2015 - El Salvador</a></li>
-                                <li><a href="#">-</a></li>
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#">-</a></li>-->
+                                <li><a href="#">Separated link</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">COMIT&Eacute; ORGANIZADOR</a>
-                        </li>
-                        <li>
-                            <a href="#">PROGRAMA</a>
-                        </li>
-                        <li>
-                            <a href="<?php echo site_url('inicio/llamado_a_ponencias'); ?>">LLAMADO A PONENCIAS</a>
-                        </li>
-                        <li>
-                            <a href="#">PUBLICIDAD</a>
-                        </li>
                     </ul>
-
+                    <!--                    <form class="navbar-form navbar-left" role="search">
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="" type="text">
+                                            </div>
+                                            <button type="submit" class="btn btn-default">Buscar</button>
+                                        </form>-->
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" target="_blank">HOTEL SEDE</a></li>
-                        <li><a href="#" target="_blank">CONTACTO</a></li>
+                        <li><a href="#"><i class="fa fa-user"></i></a></li>
                     </ul>
-
                 </div>
             </div>
-        </div>
+        </nav>

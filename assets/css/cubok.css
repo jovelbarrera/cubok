@@ -1,0 +1,20 @@
+/*ESTILO DE INPUT*/
+/*Fix lack of borders on inputs fields from the paper template*/
+textarea,
+textarea.form-control,
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+[type=text].form-control,
+[type=password].form-control {
+
+  padding: 10px;
+  font-size: 12px;
+  border: solid thin #dddddd;
+  background-color: #ffffff;
+}
+
+.navbar-nav li a{
+    font-size: 20px;
+}

@@ -1,12 +1,23 @@
-        <div class="col-lg-12" style="color: #fff;background-color: #0d2b4b; border-color: #0d2b4b;">
-            <div class="well" style="color: #fff;background-color: #0d2b4b; border-color: #0d2b4b;">
-                <p class="pull-left">
-                    CONESCAPAN 2015 | Todos los derechos reservados
-                </p>
+<div class="container">
+    <!--    <footer>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p class="text-left">
+                        <a href="#">Sobre CUBOK</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-center">
+                        <a href="#">Terminos</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p class="text-right">
+                        <a href="#">Privacidad</a>
+                    </p>
+                </div>
             </div>
-        </div>
-        <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-        <script src="<?php echo asset_url(); ?>js/bootstrap.min.js"></script>
-        <script src="<?php echo asset_url(); ?>js/bootswatch.js"></script>
-    </body>
+        </footer>-->
+</div>
+</body>
 </html>
