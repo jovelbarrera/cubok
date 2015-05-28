@@ -52,7 +52,7 @@ and open the template in the editor.
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#"><i class="fa fa-star"></i> <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#"><i class="fa fa-cloud-upload"></i></a></li>
+                        <li><a href="<?php echo site_url('upload'); ?>"><i class="fa fa-cloud-upload"></i></a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">

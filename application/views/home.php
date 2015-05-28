@@ -2,9 +2,6 @@
     <div class="row">
         <img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/cubok-home-logo.png" alt="cubok" />
     </div>
-    <!--    <div class="row">
-            <h2 class="text-center">CUBOK</h2>
-        </div>-->
 </div>
 <div>&nbsp;</div>
 <div class="container">
@@ -20,8 +17,8 @@
     </div>
         <a class="btn btn-primary"
            id="navbar-button-help" href="#" data-toggle="popover" data-trigger="focus" data-placement="bottom" title="¿Necesitas ayuda?" data-content="CUBOK es fácil de usar ¿Por qué no empiezas aquí?"><i class="fa fa-question-circle"></i></a>
+<?php echo $title;?>
 </div>
-
 <script>
     $('#navbar-button-help').popover('show');
 </script>

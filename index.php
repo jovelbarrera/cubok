@@ -1,4 +1,5 @@
 <?php
+include_once './vendor/autoload.php';
 date_default_timezone_set ('America/El_Salvador');
 /*
  *---------------------------------------------------------------
@@ -18,7 +19,7 @@ date_default_timezone_set ('America/El_Salvador');
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'production');
+	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
