@@ -1,5 +1,7 @@
 <div class="container">
     <div class="row">
-        <img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/cubok-home-logo.png" alt="cubok" />
+        <div class="col-lg-3"><div class="well">hola</div></div>
+        <div class="col-lg-3"><div class="well">hola</div></div>
+        <div class="col-lg-3"><div class="well">hola</div></div>
     </div>
 </div>
